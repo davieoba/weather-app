@@ -62,7 +62,8 @@ list.addEventListener("click", (e) => {
 const form = document.querySelector("form");
 const html = document.querySelector(".html");
 
-const apiKey = "OZnGgdxnZzpLb1eN1ig5rJJ2fkz46sTR";
+// create an api key from accuweather and put it here
+const apiKey = "";
 
 const getCity = async function (city) {
   const citydets = await fetch(
